@@ -6,7 +6,7 @@ section {
   margin: 1rem auto;
 }
 
-section > h3 {
+section > h3{
   width: 100%;
   text-align: center;
   background-color: white;
@@ -14,6 +14,8 @@ section > h3 {
   box-shadow: 0px 5px 15px #288fef, 0px -5px 15px #288fef;
   /* border-radius: 0.5rem; */
 }
+
+
 
 section > p {
   margin: 1rem;
