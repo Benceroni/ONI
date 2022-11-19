@@ -1,15 +1,15 @@
 section {
-  background-color: white;
+  /* background-color: rgba(255, 255, 255); */
   padding-top: 0.5rem;
   border-radius: 0.5rem;
-  box-shadow: 5px 5px 5px 5px#288fef;
+  /* box-shadow: 5px 5px 5px 5px#288fef; */
   margin: 1rem auto;
 }
 
 section > h3{
   width: 100%;
   text-align: center;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding: 1rem 0;
   box-shadow: 0px 5px 15px #288fef, 0px -5px 15px #288fef;
   /* border-radius: 0.5rem; */
@@ -35,7 +35,7 @@ section > img {
   border-radius: 0.5rem;
   border: 1px solid #288fef;
   box-shadow: rgba(40, 143, 239, 0.4) -5px 5px, rgba(40, 143, 239, 0.3) -10px 10px,
-    rgba(40, 143, 239, 0.2) -15px 15px;
+    rgba(40, 143, 239, 0.2) -15px 15px
   /* box-shadow: 5px 5px 0px #4f1b95, -5px -5px 0px #4f1b95; */
 }
 

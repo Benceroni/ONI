@@ -1,5 +1,5 @@
 body {
-  background: white;
+  background: rgb(255, 255, 255);
   font-size: 20px;
   margin: 0 auto;
   width: 960 px;
@@ -19,7 +19,7 @@ body {
 }
 
 main {
-  background-color: rgba(185, 185, 185, 0.5);
+  background-color: rgb(185, 185, 185);
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -33,16 +33,17 @@ main {
 }
 
 div {
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 5%;
   text-align: left;
 }
 
-#Contentsparent {
+.Contentsparent {
   width: 960px;
-  background-color: #288fef;
+  /* background-color: #288fef; */
   margin: 0 auto;
-  padding: 4 rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   margin: 0;
 }
 
@@ -55,7 +56,7 @@ div {
 footer,
 header {
   background-color: gray;
-  padding: 10px;
+  padding: 0.25rem;
   width: auto;
 }
 
