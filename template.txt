@@ -46,3 +46,9 @@
         <h3></h3>
         <p></p>
     </div>
+
+//Template #3//
+            <div class="island">
+              <h3></h3>
+              <p></p>
+            </div>
