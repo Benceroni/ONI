@@ -1,5 +1,5 @@
 body {
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.624);
   font-size: 20px;
   margin: 0 auto;
   font-family: BrandonGrotesqueWeb-Black, "Arial Black", Arial, Helvetica,
@@ -38,8 +38,9 @@ img {
 }
 
 .island {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.727);
   border-radius: 1rem;
+  padding-bottom: 1rem;
   margin-top: 3rem;
   margin-bottom: 2rem;
   box-shadow: 0px 5px 25px #ff000044, 0px -5px 25px #ff000040;
@@ -48,14 +49,14 @@ img {
 .island > h3 {
   width: 100%;
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgba(255, 255, 255, 0.794); */
   padding: 1rem 0;
   border-radius: 1rem;
   margin-bottom: 2rem;
 }
 
 .review {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.85);
   margin: 1rem;
   margin-bottom: 3rem;
   margin-right: 0.25rem;
@@ -68,7 +69,7 @@ img {
 .review > h3 {
   width: 100%;
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255);s */
   padding: 1rem 0;
 }
 
