@@ -1,0 +1,47 @@
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(1);
+  margin: 1rem;
+}
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+}
+
+main {
+  margin: 0 auto;
+}
+body {
+  background-color: black;
+  margin: 0 auto;
+  color: white;
+  font-family: BrandonGrotesqueWeb-Black, "Arial Black", Arial, Helvetica,
+    sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.blackspace {
+  height: 100vh;
+  /* background-color: black; */
+}
+
+.parallax {
+  perspective-origin-x: 100%;
+}
+.parallax__layer {
+  transform-origin-x: 100%;
+}
