@@ -10,10 +10,10 @@
   padding: 30vh 0;
 }
 
-.sciencefiction {
-  background-image: https://Benceroni.github.io/ONI/images/artworks-000113241735-41w30u-t500x500-3175144372.jpeg;
+/* .sciencefiction {
+  background-image: url("https://Benceroni.github.io/ONI/images/artworks-000113241735-41w30u-t500x500-3175144372.jpeg");
   box-shadow: 0 0 100px 8px black inset;
-}
+} */
 
 .outro {
   height: 200vh;
