@@ -1,0 +1,37 @@
+.brandnew {
+  padding: 1rem;
+  color: white;
+  background-color: black;
+  margin: 0;
+  text-align: center;
+}
+
+.brandnewwolf {
+  padding: 30vh 0;
+}
+
+.sciencefiction {
+  box-shadow: 0 0 8px 8px black inset;
+}
+
+.outro {
+  height: 200vh;
+  background-image: linear-gradient(to bottom, black, rgb(255, 198, 228));
+  box-shadow: 0 4px 2px -2px rgb(255, 198, 228);
+}
+
+.spacer {
+  height: 50vh;
+}
+.spacer2 {
+  height: 25vh;
+}
+
+.title {
+  text-align: center;
+  font-size: larger;
+}
+
+.justifyleft {
+  text-align: left;
+}
