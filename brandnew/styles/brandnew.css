@@ -34,14 +34,19 @@ img {
   width: 100%;
 }
 
-.blackspace {
+.blankspace {
   height: 100vh;
   /* background-color: black; */
 }
 
-.parallax {
-  perspective-origin-x: 100%;
+.quarterblankspace {
+  height: 30vh;
 }
-.parallax__layer {
-  transform-origin-x: 100%;
+p {
+  padding: 1rem;
+}
+
+/* albums */
+.YFWAlbum {
+  background-image: url(https://benceroni.github.io/ONI/brandnew/images/yourfavoriteweaponalbumresized.jpeg);
 }
