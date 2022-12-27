@@ -34,6 +34,13 @@ img {
   width: 100%;
 }
 
+h3 {
+  font-size: 17vw;
+  margin-top: 0;
+  color: black;
+  padding-left: 0.5rem;
+}
+
 .blankspace {
   height: 100vh;
   /* background-color: black; */
@@ -42,6 +49,33 @@ img {
 .quarterblankspace {
   height: 30vh;
 }
+.halfblankspace {
+  height: 50vh;
+}
 p {
   padding: 1rem;
+}
+
+.yourfavoriteweapongradient1 {
+  height: 50vh;
+  background-image: linear-gradient(to bottom, black, #7a818c);
+}
+.yourfavoriteweapongradient2 {
+  margin: 0;
+  height: 50vh;
+  background-image: linear-gradient(to top, black, #fad5bb);
+}
+
+.dejagradient1 {
+  height: 50vh;
+  background-image: linear-gradient(to bottom, black, #511f20);
+}
+.dejagradient2 {
+  margin: 0;
+  height: 50vh;
+  background-image: linear-gradient(to top, black, #214941);
+}
+image {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
