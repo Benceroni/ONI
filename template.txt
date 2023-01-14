@@ -52,3 +52,10 @@
               <h3></h3>
               <p></p>
             </div>
+
+//Song template//
+        <ul class="song">
+          <li><a onclick="toggleSong()">_</a></li>
+          <!-- song description -->
+          <li></li>
+        </ul>

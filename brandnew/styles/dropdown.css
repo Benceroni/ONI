@@ -1,0 +1,27 @@
+ul {
+  list-style-type: none;
+}
+
+.song {
+  list-style: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+.song li:first-child {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.475);
+}
+.song li {
+  display: none;
+  padding: 1rem;
+}
+.responsive li {
+  display: block;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.song li:not(:first-child) {
+  background-color: rgb(21, 21, 21);
+}
